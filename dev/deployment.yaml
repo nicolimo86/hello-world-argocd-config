@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: helloworld
-        image: registry.gitlab.com/limonni/hello-world-java:latest
+        image: limonni/hello-world-java:latest
         ports:
         - containerPort: 8080
