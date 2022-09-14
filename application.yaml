@@ -3,9 +3,6 @@ kind: Application
 metadata:
   name: hello-world-application
   namespace: argocd
-  annotations:
-    notifications.argoproj.io/subscribe.on-sync-failed.teams: gitlab-channel
-    notifications.argoproj.io/subscribe.on-sync-succeeded.teams: gitlab-channel
 spec:
   project: default
 
